@@ -603,5 +603,31 @@
         "instruction": "Tunnista ja vastaa sisäisiin uhkiin käyttämällä IBM QRadarin käyttäjäkäyttäytymisanalyysiominaisuuksia.",
         "input": "Organisaatio haluaa tunnistaa ja torjua mahdollisia sisäisiä uhkia. Hyödynnä IBM QRadarin käyttäjäkäyttäytymisanalyysiominaisuuksia näiden uhkien havaitsemiseen ja torjumiseen.",
         "response": "Mahdollisten sisäisten uhkien tunnistamiseksi ja torjumiseksi organisaatio käyttää IBM QRadarin käyttäjäkäyttäytymisanalyysiominaisuuksia. QRadarin käyttäjäkäyttäytymisanalyysi tarkkailee ja analysoi käyttäjien toimintaa organisaation järjestelmissä, tunnistaa epäilyttäviä toimintoja tai käyttäytymismalleja ja varoittaa mahdollisista uhista. Hyödyntämällä IBM QRadarin käyttäjäkäyttäytymisanalyysiominaisuuksia organisaatio voi tehokkaasti suojata järjestelmiään sisäisiltä uhilta ja estää tietomurtoja."
+    },
+    {
+        "instruction": "Tunnista ja analysoi verkkohyökkäyksen merkkejä käyttämällä Snortia ja Splunkia.",
+        "input": "Verkkoseurantajärjestelmä havaitsee epäilyttävää verkkoliikennettä. Hyödynnä Snortia ja Splunkia tunnistaaksesi ja analysoidaksesi verkkohyökkäyksen merkkejä.",
+        "response": "Epäilyttävän verkkoliikenteen havaitsemisen jälkeen järjestelmänvalvojat käynnistävät Snortin analysoimaan verkkoliikennettä reaaliajassa ja havaitsemaan mahdollisia hyökkäyksiä. Tämän jälkeen he integroivat Splunkin analysoidakseen Snortin tuottamia lokitietoja ja tunnistaakseen hyökkäyksen merkkejä. Splunkin avulla he voivat suorittaa kyselyjä ja visualisointeja, mikä auttaa tunnistamaan ja seuraamaan hyökkäyksiä tehokkaasti."
+    },
+    {
+        "instruction": "Tunnista tietomurto yrityksen verkossa käyttäen Arcsightia ja OpenVAS:ia.",
+        "input": "Yrityksen verkossa havaitaan epäilyttäviä toimintoja. Käytä Arcsightia ja OpenVAS:ia tunnistaaksesi tietomurto ja tutkiaksesi tilannetta.",
+        "response": "Havaittuaan epäilyttäviä toimintoja verkossa järjestelmänvalvojat käyttävät Arcsightia kerätäkseen ja analysoidakseen tietoturvalokeja reaaliajassa. Samalla he käyttävät OpenVAS:ia suorittamaan haavoittuvuusskannauksia ja tunnistamaan mahdollisia hyökkäysvektoreita. Yhdistämällä näiden työkalujen tarjoamat tiedot he voivat tehokkaasti tunnistaa ja torjua tietomurrot."
+    },
+    {
+        "instruction": "Tutki ja torju sähköpostipohjaisia hyökkäyksiä käyttäen Mimecastia ja Microsoft Defenderia.",
+        "input": "Käyttäjät ilmoittavat saaneensa useita epäilyttäviä sähköposteja. Hyödynnä Mimecastia ja Microsoft Defenderia tutkiaksesi ja torjuaksesi nämä hyökkäykset.",
+        "response": "Saatuaan ilmoituksen epäilyttävistä sähköposteista järjestelmänvalvojat käyttävät Mimecastia analysoidakseen ja suodattaakseen sähköpostit. Tämän lisäksi Microsoft Defender tarjoaa lisäsuojan tarkistamalla sähköpostien liitteet ja URL-osoitteet haittaohjelmien varalta. Näiden työkalujen yhdistelmällä järjestelmänvalvojat voivat tunnistaa ja estää sähköpostipohjaiset hyökkäykset ennen kuin ne saavuttavat käyttäjät."
+    },
+    {
+        "instruction": "Analysoi verkkoliikennettä haittaohjelmien havaitsemiseksi käyttäen Darktracea ja Kaspersky Labia.",
+        "input": "Verkkoliikenneseuranta havaitsee epäilyttävää toimintaa. Käytä Darktracea ja Kaspersky Labia analysoidaksesi liikennettä ja havaitaksesi mahdolliset haittaohjelmat.",
+        "response": "Havaittuaan epäilyttävää toimintaa verkkoliikenteessä, järjestelmänvalvojat käyttävät Darktracea analysoimaan ja oppimaan verkkoliikenteen malleja reaaliajassa. Samalla Kaspersky Lab suorittaa haittaohjelma-analyysejä ja tunnistaa mahdolliset uhkat. Näiden työkalujen yhdistelmä mahdollistaa tehokkaan ja kattavan haittaohjelmien havaitsemisen ja torjumisen."
+    },
+    {
+        "instruction": "Havaitse ja analysoi haitallista liikennettä organisaation verkossa käyttäen Check Pointia ja SolarWindsia.",
+        "input": "Organisaation verkossa havaitaan suuria määriä haitallista liikennettä. Hyödynnä Check Pointia ja SolarWindsia haitallisen liikenteen havaitsemiseksi ja analysoimiseksi.",
+        "response": "Havaittuaan suuren määrän haitallista liikennettä, järjestelmänvalvojat käyttävät Check Pointin palomuureja ja tietoturvatyökaluja liikenteen analysoimiseksi ja uhkien tunnistamiseksi. SolarWinds tarjoaa lisätyökaluja verkkoliikenteen monitorointiin ja tietoturvalokeihin perustuvaan analyysiin. Näiden työkalujen avulla järjestelmänvalvojat voivat tehokkaasti tunnistaa, analysoida ja torjua haitallisen liikenteen."
     }
+
 ]
