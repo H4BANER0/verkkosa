@@ -84,6 +84,7 @@ def this_or_that(update):
     arpa = random.randint(1, 2)
     send_message(get_chat_id(update), str(teksti[arpa - 1]))
 
+# Kukaan ei syö yli 30 siipeä kerralla jotan tämä funktio toimii rajoittimena sitä varten
 def too_many_wings_check(update, data):
     teksti = get_message_text(update).lower()
     teksti = teksti.split(" ")
@@ -100,6 +101,7 @@ def print_data_to_file(update,data):
         file.write(f"{value};{data[value].get_wings()}\n")     
     file.close()
 
+# Siipistatistiikan tallennus käyttäjänimen mukaan
 def save_data(update, data):
     teksti = get_message_text(update).lower()
     teksti = teksti.split(" ")
@@ -115,6 +117,7 @@ def save_data(update, data):
         
     print_data_to_file(update,data)     
 
+#siipi listan tarkistaminen
 def read_file(data):
     file = open("siipilistaus.txt", "r")
     tiedosto = file.readlines()
@@ -126,6 +129,7 @@ def read_file(data):
         data[username] = Person(username, wings)
     return data
 
+# siipistatistiikan tulostus telegram chättiin
 def list_values(update,data):
     for value in data:
         send_message(get_chat_id(update),f"{value} : {data[value].get_wings()}")
