@@ -1,1 +1,3 @@
-I'm information technology student and here I share some projects that I have worked with by myself and my friends!
+About me
+---------------------
+I'm soon graduating as Master of science on IT studies. Here are some projects that I have been working on along the way and still work on today.
