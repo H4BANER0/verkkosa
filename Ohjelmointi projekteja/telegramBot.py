@@ -2,7 +2,7 @@ import requests as requests
 import random
 import json
 
-url = "https://api.telegram.org/bot1061054656:AAF7ia8PW2sXHx3s0Qyg3N1kmtlzLkMjajY/"
+url = "https://api.telegram.org/.................................../"
 
 ohjeistus = ["Moro! Kirjoita 'Play' heittääksesi noppaa!", "Jaahas", "selvä"]
 komennot = ["moi", "moro", " vai ", "/ohjeet", "play"]
