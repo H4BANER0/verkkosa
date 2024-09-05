@@ -36,7 +36,7 @@ model = FastLanguageModel.get_peft_model(
 )
 
 # Load the dataset
-df = pd.read_json("/home/verkkosa/unsloth/SOCAI-data.json")
+df = pd.read_json("TODO: Add Json file path")
 dataset = Dataset.from_pandas(df)
 
 EOS_TOKEN = tokenizer.eos_token
